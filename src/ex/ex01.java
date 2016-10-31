@@ -5,7 +5,7 @@
  @@@
  @@@
  * Date: 2016/10/31
- * Author: 105021013 周永振老師
+ * Author: 105021013 
  */
 import java.util.Scanner;
 public class ex01 {
