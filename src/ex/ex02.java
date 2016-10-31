@@ -13,13 +13,28 @@ public class ex02 {
     System.out.println("輸入m和n:");
     int m = scn.nextInt();
     int n = scn.nextInt();
-    fun1(n);}
-	public static void fun1(int n){
+    int x = fun1(m,n);
+	 System.out.print(x);
+   }
+
+	public static int fun1(int a,int b){
 		int sum = 0;
-		for(int i=0;i<n;i++){
-			
+		int a1 = 1;
+		int a2 = 1;
+		int a3 = 1;
+		int mn = (a-b);
+		
+		for(int i=a;i>0;i--){
+		a1=a1*i;
 		}
-    
+		for(int j=b;j>0;j--){
+		a2=a2*j;
+		}
+		for(int h=mn;h>0;h--){
+	    a3=a3*h;
 	}
+ sum = a1 / (a2*a3);
+ return sum ;
+}
 
 }
